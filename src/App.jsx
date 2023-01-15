@@ -55,9 +55,8 @@ const handleChangeReason = (e) => {
   return (
  <div className="FormFeedback" onSubmit={handleSubmit(onSubmit)}>
 
-<h1>послушай мой совет в формате mp3</h1>
-<h2>не жди пока состаришься скорей умри</h2>
-<h3>жаль что твои родители не чайдфри</h3>
+<h1>когда я умру я стану ветром </h1>
+
 
   <div className={`loadingContainer ${loading ? '' : 'hide'}`}>
     <CircularProgress/>
