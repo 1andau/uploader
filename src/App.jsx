@@ -56,19 +56,7 @@ const handleChangeReason = (e) => {
  <div className="FormFeedback" onSubmit={handleSubmit(onSubmit)}>
 
 
-<h1>I never thought I'd die alone
-I laughed the loudest, who'd have known?
-I trace the cord back to the wall
-No wonder it was never plugged in at all
-I took my time, I hurried up</h1>
 
-<h2>The choice was mine, I didn't think enough
-I'm too depressed to go on
-You'll be sorry when I'm gone</h2>
-
-<h3>I never conquered, rarely came
-Sixteen just held such better days
-Days when I still felt alive</h3>
 
 
   <div className={`loadingContainer ${loading ? '' : 'hide'}`}>
