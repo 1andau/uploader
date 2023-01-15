@@ -56,6 +56,7 @@ const handleChangeReason = (e) => {
  <div className="FormFeedback" onSubmit={handleSubmit(onSubmit)}>
 
 <h1>и ты попала к настоящему колдуну</h1>
+<h1>он загубил таких как ты не одну</h1>
 
   <div className={`loadingContainer ${loading ? '' : 'hide'}`}>
     <CircularProgress/>
