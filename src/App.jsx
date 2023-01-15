@@ -57,7 +57,7 @@ const handleChangeReason = (e) => {
 
 <h1>и ты попала к настоящему колдуну</h1>
 <h1>он загубил таких как ты не одну</h1>
-<h1>чьиз невольница ты идей</h1>
+<h1>чьиз невольница ты идей  зачем</h1>
 
   <div className={`loadingContainer ${loading ? '' : 'hide'}`}>
     <CircularProgress/>
