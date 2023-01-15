@@ -1,0 +1,89 @@
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contactBox{
+    width: clamp(100px, 100%, 1000px);
+    margin: 40px 15px;
+    display: flex;
+    flex-wrap: wrap; 
+    @media only screen and (max-width: 400px) {
+        .contactBox{
+          width: 95%;
+          margin: 8% 5%;
+        }
+      }
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; 
+    @media only screen and (max-width: 600px) {
+        
+          grid-gap: 5px;
+         }  
+}
+
+.FormItem{
+    position: relative;
+
+}
+
+.FormInput{
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 1em; 
+    font-size: 13px;  
+}
+
+
+.SelectDiv{
+    position: relative;
+    border: 2px solid #E3E3E3;
+    border-radius: 8px;
+    &::after{
+        content: "▾"; 
+        color: black;
+        margin-right: 10px;
+        pointer-events: none;
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        font-size: 20px;    
+    }
+}
+
+.SelectButton{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    font-size: 13px;
+    &:focus {
+      color: black;
+    } 
+}
+
+.HiddenText{
+    margin: 10px 10px;
+    cursor: pointer;
+    align-items: center;
+    color: black;  
+    p{
+        font-size: 12px;
+        color: black; 
+      
+      
+       }
+}
+
+
