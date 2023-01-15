@@ -62,8 +62,6 @@ const handleChangeReason = (e) => {
 <h5>когда ты умрешь ты станешь солнцем и все равно меня будешь выше</h5>
 <h5>когда ты умрешь ты станешь солнцем и все равно меня будешь выше</h5>
 <h6>alice</h6>
-<h6>alice</h6>
-<h6>alice</h6>
 
 
   <div className={`loadingContainer ${loading ? '' : 'hide'}`}>
